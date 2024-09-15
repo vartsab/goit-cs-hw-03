@@ -6,9 +6,9 @@ fake = Faker()
 
 def seed_data():
     conn = psycopg2.connect(
-        dbname="mydatabase",
-        user="myuser",
-        password="mypassword",
+        dbname="tasks",
+        user="vartsab",
+        password="234708",
         host="localhost"
     )
     cur = conn.cursor()
